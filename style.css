@@ -1,0 +1,632 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: blueviolet;
+    font-size: 1.1rem;
+}
+
+main hr {
+    border: 0;
+    background: blueviolet;
+    height: 1.2px;
+    margin: 60px 84px;
+
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+
+.firstSection div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+    margin: 30px 0;
+}
+
+.rightSection img {
+    width: 70%;
+}
+
+.text-blueviolet {
+    color: blueviolet;
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: blueviolet;
+}
+
+.secondSection {
+    max-width: 100%;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection span{
+    font-size: 1rem;
+    width: 100%;
+    padding: 30px 20px 0px 20px;   
+}
+.secondSection h1 {
+    font-size: 1.9rem;
+    width: 100%;
+    padding: 6px 20px 6px 20px;
+}
+
+.secondSection .box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.secondSection .vertical {
+   height: 250px;
+   padding: 20px 30px;
+    border: 2px solid white;
+
+}
+
+.image-top {
+    width: 50px;
+    position: relative;
+    top: -72px;
+    left: 50px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 40px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 41px;
+    color: gray;
+    width: 150px;
+    font-size: 14px;
+}
+footer{
+    background-color: #0e0e1a;
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.text-center{
+    text-align: center;
+}
+/* Get_in_touch Section Starts */
+
+
+.head{
+width: 95%;
+margin: 3vw 0 2vw 0;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.head div{
+text-align: center;
+font-weight: bold; 
+position: relative;
+padding-bottom: 10px;
+}
+.head div span{
+    font-size: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+
+/* Project Starts */
+.projects{
+    width: 100%;
+    padding: 20px;
+}
+.outer_projects{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.prjct{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.prjct .prj_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(234, 0, 0);
+    z-index: 1;
+}
+.prjct p{
+    font-size: 20px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 20px;
+    bottom: 20px;
+    text-shadow: 0 0 2px rgb(249, 108, 108);
+    z-index: -1;
+}
+.prjct:hover .prj_img{
+    filter:brightness(0.5);
+    transition: filter 0.1s linear;
+}
+.prjct:hover p{
+    z-index: 2;
+}
+/* Project Ends */
+
+/* Skills Starts */
+#Skills{
+width: 100vw;
+height: auto;
+margin: 6vw 0 4vw 0;
+padding: 2vw 0 4vw 0;
+background: black;
+box-shadow: 0 0 20px rgb(47, 46, 46);
+/* border: 2px solid white; */
+}
+#Skills .box_skill{
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center; 
+}
+
+#Skills .skill_outer{
+width: 800px;
+height: auto;
+margin: 30px 0 20px 0;
+box-shadow: 0px 0px 10px white;
+background-color: black;
+/* display: flex;
+justify-content: center;   */
+}
+
+#Skills .skill_outer .web_skills{
+width: 100%;
+padding: 30px 40px;
+/* border-radius: 3px;
+box-shadow: 0px 0px 10px white;
+background-color: black; */
+/* border: 2px solid white; */
+}
+
+#Skills .skill_outer .web_skills .skill_heading{
+width: 100%;
+/* border: 2px solid white; */
+padding: 5px 5px;
+}
+#Skills .skill_outer .web_skills .skill_heading h2{
+width: 100%;
+height: auto;
+padding: 5px 10px;
+font-size: 20px;
+}
+
+#Skills .skill_outer .web_skills .skill_dev{
+width: 100%;
+padding: 5px 3px;
+}
+#Skills .skill_outer .web_skills .skill_dev h2{
+font-size: 15px;
+}
+#Skills .skill_outer .web_skills .skill_dev .progress_prctg{
+width: 100%;
+height: 10px;
+margin: 5px 0 5px 0;
+border-radius: 5px;
+background-color: white;
+}
+#Skills .skill_outer .web_skills .skill_dev .progress_prctg .html{
+width: 90%;
+height: 10px;
+border-radius: 5px;
+background-color: rgb(246, 47, 47);
+}
+#Skills .skill_outer .web_skills .skill_dev .progress_prctg .html{
+width: 90%;
+height: 10px;
+border-radius: 5px;
+background-color: rgb(246, 47, 47);
+}
+
+#Skills .skill_outer .web_skills .skill_dev .progress_prctg .css{
+width: 80%;
+height: 10px;
+border-radius: 5px;
+background-color: rgb(71, 81, 220);
+}
+#Skills .skill_outer .web_skills .skill_dev .progress_prctg .javascript{
+width: 40%;
+height: 10px;
+border-radius: 5px;
+background-color: rgb(86, 236, 45);
+}
+#Skills .skill_outer .web_skills .skill_dev .progress_prctg .prctg_skill span{
+width: 40px;
+height: 40px;
+position: relative;
+top: -15px;
+left: 20px;
+border-radius: 50%;
+background-color: black;
+float: right;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+#Skills .skill_outer .web_skills .skill_dev .progress_prctg .html span{
+border: 2px solid rgb(246, 47, 47);
+}
+#Skills .skill_outer .web_skills .skill_dev .progress_prctg .css span{
+border: 2px solid rgb(71, 81, 220);
+}
+#Skills .skill_outer .web_skills .skill_dev .progress_prctg .javascript span{
+border: 2px solid rgb(86, 236, 45);
+}
+
+/* programm skills start */
+.Program_skills{
+width: 100%;
+margin: 30px 0 30px 0;
+padding: 30px 40px;
+}
+
+.Program_skills .skill_heading{
+width: 100%;
+/* border: 2px solid white; */
+padding: 5px 5px;
+}
+.Program_skills .skill_heading h2{
+width: 100%;
+height: auto;
+padding: 5px 10px;
+font-size: 20px;
+}
+
+
+.Program_skills .prgm_outer{
+width: 100%;
+height: auto;
+padding: 20px 0 10px 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 40px;
+}
+.Program_skills .prgm_outer .outer_cicle{
+width: 150px;
+height: 150px;
+position: relative;
+border-radius: 50%;
+}
+.Program_skills .prgm_outer .outer_cicle .inner_circle{
+position: absolute;
+inset: 7px;
+background-color: black;
+border-radius: 50%;
+padding: 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.Program_skills .prgm_outer .outer_cicle .inner_circle div{
+position: relative;
+}
+.Program_skills .prgm_outer .outer_cicle .inner_circle h1{
+width: 100%;
+height: auto;
+text-align: center;
+color: white;
+font-size: 40px;
+font-weight: 500px;
+/* border: 2px solid white; */
+}
+.Program_skills .prgm_outer .outer_cicle .inner_circle h1 span{
+font-size: 25px;
+}
+.Program_skills .prgm_outer .outer_cicle .inner_circle h2{
+width: 100%;
+text-align: center;
+font-size: 18px;
+position: absolute;
+top: 80%;
+}
+.Program_skills .prgm_outer .c .inner_circle h2{
+color: rgb(248, 236, 2);
+}
+.Program_skills .prgm_outer .cpp .inner_circle h2{
+color: rgb(235, 34, 34);
+}
+.Program_skills .prgm_outer .java .inner_circle h2{
+color: rgb(41, 237, 64);
+}
+.Program_skills .prgm_outer .python .inner_circle h2{
+color: rgb(68, 144, 236);
+}
+
+.Program_skills .prgm_outer .c{
+background: rgb(60, 60, 60) conic-gradient(rgb(248, 236, 2) 270deg,transparent 90deg);
+}
+.Program_skills .prgm_outer .cpp{
+background: rgb(60, 60, 60) conic-gradient(rgb(235, 34, 34) 80%,transparent 20%);
+}
+.Program_skills .prgm_outer .java{
+background: rgb(60, 60, 60) conic-gradient(rgb(41, 237, 64) 35%,transparent 35%, transparent 30%);
+}
+.Program_skills .prgm_outer .python{
+background: rgb(60, 60, 60) conic-gradient(rgb(68, 144, 236) 40%,transparent 30%,transparent 30%);
+}
+/* programm skills ends */
+
+
+.Program_skills .prgm_outer .outer_cicle:hover .continuous_color_change{             
+background: linear-gradient(90deg, rgb(128, 0, 255),white,rgb(128, 0, 255), white,rgb(128, 0, 255),white,rgb(128, 0, 255),white,rgb(128, 0, 255), white, rgb(128, 0, 255),white,rgb(128, 0, 255) );             
+background-size: 200%;
+-webkit-text-fill-color: transparent;             
+-webkit-background-clip: text;             
+animation:animate_colors_name 5s linear infinite;         
+}      
+@keyframes animate_colors_name{             
+0%{                 
+background-position: 0%;             
+}             
+100%{                 
+background-position: 100%;             
+}         
+} 
+/* Skills ends */
+
+/* Get_in_touch Section Starts */
+
+#Get_in_touch{
+width: 100vw;
+height: 20vw;
+}
+#Get_in_touch .Get_in_touch_content{
+width: 100%;
+position: relative;
+top: 0;
+
+background-color: black;
+}
+
+
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box{
+width: 100%;
+height: auto;
+margin: 60px 0 40px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox{
+width: 80%;
+height: auto;
+}
+
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .box_info{
+width: 100%;
+padding: 20px 30px 20px 30px;
+border: 2px solid white;
+border-radius: 10px;
+background: black;
+box-shadow: 0 0 20px rgb(168, 158, 158);
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .box_info #p{
+width: 100%;
+padding: 30px 20px 20px 20px;
+text-align: center;
+font-size: 25px;
+font-weight: 500;
+}
+
+/* Social Media Icons */
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .box_info .media{
+width: 100%;
+height: 100%;
+margin: 1vw auto 0vw;
+padding: 1vw 0 0vw 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+/* border: 2px solid white; */
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .box_info.media ul{
+width: 350px;
+height: 100px;
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .box_info .media ul li{
+width: 80px;
+height: 80px;
+list-style: none;
+display: inline-block;
+/* border: 3px solid red; */
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .box_info .media ul li span{
+width: 50px;
+height: 50px;
+background: #212021;
+padding-top: 4px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid white;
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .box_info .media ul li span:hover{
+background: black;
+border: 2px solid yellowgreen;
+box-shadow: 0px 0px 20px rgb(55, 199, 70);
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .box_info .media ul li span img{
+width: 20px;
+height: auto;
+}
+/* Social media icons ends */
+
+
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .form_outer{
+margin: 50px 0 30px 0;
+
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .form_outer .form_head_div{
+width: 100%;
+padding: 30px 20px 20px 20px;
+
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .form_outer .form_head_div p{
+width: 100%;
+text-align: center;
+
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .form_outer .form_head_div .form_heading{
+font-size: 25px;
+font-weight: 600;
+word-spacing: 3px;
+color: rgb(119, 0, 255);
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .form_outer .form_head_div .form_about{
+font-size: 18px;
+padding: 10px 0 10px 0;
+color: white;
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .form_ct{
+width: 100%;
+padding: 20px 10px 20px 10px;
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .form_ct h2{
+padding: 0 0 0px 10px;
+font-size: 20px;
+font-family: 500;
+word-spacing: 4px;
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .form_ct form{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+gap: 6%;
+
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .form_ct .outer_input{
+width: 47%;
+/* border: 2px solid white; */
+margin: 20px 0 10px;
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .form_ct .outer_input .form_input{
+width: 100%;
+padding: 7px 20px 7px 20px;
+border: 2px solid white;
+border-radius: 5px;
+background-color: rgb(22, 22, 22);
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .form_ct .outer_input_full{
+width: 100%;
+margin: 20px 0 10px;
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .form_ct .outer_input_full .form_india_email{
+width: 100%;
+padding: 7px 20px 7px 20px;
+border: 2px solid white;
+border-radius: 5px;
+background-color: rgb(22, 22, 22);
+}
+
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .form_ct .outer_input_full .textarea_form{
+width: 100%;
+padding: 7px 20px 7px 20px;
+border: 2px solid white;
+border-radius: 5px;
+background-color: rgb(22, 22, 22);
+}
+
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .form_ct .button:onclick{
+border: 2px solid yellowgreen;
+transform: scale(1.03);
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .form_ct .submit{
+width: 100%;
+padding: 7px 20px 7px 20px;
+border: 2px solid white;
+border-radius: 5px;
+background-color: rgb(104, 61, 197);
+}
+#Get_in_touch .Get_in_touch_content .Get_in_touch_box #formbox .form_ct .submit:hover{
+transform: scale(1.03);
+background-color: #4c74ab;
+box-shadow: 0 0 10px white;
+color: black;
+transition-duration: 1s;
+}
+/* Get_in_touch Section ends */
